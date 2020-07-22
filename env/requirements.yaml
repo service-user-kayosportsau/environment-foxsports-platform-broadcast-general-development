@@ -7,3 +7,6 @@ dependencies:
   version: 2.3.118
   repository: http://chartmuseum.jenkins-x.io
   alias: cleanup
+- name: foxsports-platform-general-test-conductor-workers
+  repository: https://artifactory.cluster.foxsports.foxsports-gitops-prod.com.au/artifactory/helm
+  alias: test-conductor-workers
