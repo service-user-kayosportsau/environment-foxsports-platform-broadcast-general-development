@@ -1,4 +1,6 @@
 test-conductor-workers:
+  service:
+    name: test-conductor-workers
   env:
     SPRING_PROFILES_ACTIVE: json-logging
     CONDUCTOR_SERVERAPIURI: http://conductor-server.conductor.svc.cluster.local/api/
