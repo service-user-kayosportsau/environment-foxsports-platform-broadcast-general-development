@@ -10,3 +10,4 @@ dependencies:
 - name: foxsports-platform-general-test-conductor-workers
   repository: https://artifactory.cluster.foxsports.foxsports-gitops-prod.com.au/artifactory/helm
   alias: test-conductor-workers
+  version: 1.0.1
