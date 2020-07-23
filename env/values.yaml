@@ -13,9 +13,10 @@ expose:
   - --v
   - 4
   config:
-    domain: dev.cluster.foxsports-gitops-prod.com.au
+    domain: dev.kube.foxsports.com.au
     exposer: Ingress
     http: "true"
+    urltemplate: "{{.Service}}-{{.Namespace}}.{{.Domain}}"
 jenkins:
   Servers:
     Global: {}
